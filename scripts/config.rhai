@@ -1,6 +1,6 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["Habitat", "Social", "Home", "Navigation"];
+let titles_method = ["Brain", "Bio", "Lifelong", "Incremental"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
 
@@ -22,7 +22,9 @@ let conferences = [
     // System
     "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security",
+    // Robotics
+    "CoRL", "RSS", "ICRA", "IROS"
 ];
 
 let start = conferences.shift();
