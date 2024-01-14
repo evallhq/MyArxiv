@@ -1,6 +1,6 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_model = ["Robot", "Quadruped", "Habitat", "Social", "Home", "Navigation", "mobile", "manipulation"];
-let titles_method = ["Brain", "Bio", "Lifelong", "Incremental", "Continu"];
+let titles_method = ["Brain", "Bio", "Lifelong", "Incremental", "Continu", "Embodi"];
 let titles = titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
 
